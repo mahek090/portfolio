@@ -16,12 +16,10 @@
 }
 html {
   scroll-behavior: smooth;
-  
 }
 body {
   color: var(--default-color);
   font-family: var(--default-font-family);
-  
 }
 h1 {
   font-weight: 700;
@@ -134,7 +132,7 @@ nav li.active a {
 .card-text {
   height: 200px;
 }
-.footer-contact {
+#footer-contact {
   display: flex;
   justify-content: end;
 }
@@ -161,6 +159,7 @@ footer a:hover {
 }
 .fa-brands:hover {
   color: var(--nice-purple-color);
+  transform: scale(1.1);
 }
 .icon-project {
   font-size: 35px;
